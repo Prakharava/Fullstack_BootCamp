@@ -1,0 +1,103 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+   <div class="container">
+    <div class="header">
+        <i class="fa-solid fa-arrow-left"></i>
+        <h3>Prakhar</h3>
+        <img src="videocall.jpg" alt="">
+        <i class="fa-solid fa-phone"></i>
+        <img src="./comments.jpg" alt="">
+    </div>
+    <div class="chat-log">
+        <div class="message">
+            <img src="./roadmap.png" alt="">
+            <div class="message-text">Yo!</div>
+        </div>
+        <div class="message">
+            <img src="./roadmap.png" alt="">
+            <div class="message-text">Hey! have you completed your project that you were assigned 2 days earlier? Do you want to come to my place for help?</div>
+            <h5>10:30am on fri, Aug 9,2024</h5>
+        </div>
+        <div class="message">
+            <img src="./roadmap.png" alt="">
+            <div class="message-text">Yo i haven't completed it yet but don’t worry I’ll complete it by tomorrow.</div>
+        </div>
+        <div class="message">
+            <img src="./roadmap.png" alt="">
+            <div class="message-text">ok</div>
+        </div>
+        <div class="message">
+            <img src="./roadmap.png" alt="">
+            <div class="message-text">...</div>
+        </div>
+    </div>
+    <div class="input-field">
+        <h4>Write a message...</h4>
+        <img src="./send.png" alt="">
+        <img src="./microphone.png" alt="">
+    </div>
+   </div>
+</body>
+</html>
+
+
+CSS:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+   <div class="container">
+    <div class="header">
+        <i class="fa-solid fa-arrow-left"></i>
+        <h3>Prakhar</h3>
+        <img src="videocall.jpg" alt="">
+        <i class="fa-solid fa-phone"></i>
+        <img src="./comments.jpg" alt="">
+    </div>
+    <div class="chat-log">
+        <div class="message">
+            <img src="./roadmap.png" alt="">
+            <div class="message-text">Yo!</div>
+        </div>
+        <div class="message">
+            <img src="./roadmap.png" alt="">
+            <div class="message-text">Hey! have you completed your project that you were assigned 2 days earlier? Do you want to come to my place for help?</div>
+            <h5>10:30am on fri, Aug 9,2024</h5>
+        </div>
+        <div class="message">
+            <img src="./roadmap.png" alt="">
+            <div class="message-text">Yo i haven't completed it yet but don’t worry I’ll complete it by tomorrow.</div>
+        </div>
+        <div class="message">
+            <img src="./roadmap.png" alt="">
+            <div class="message-text">ok</div>
+        </div>
+        <div class="message">
+            <img src="./roadmap.png" alt="">
+            <div class="message-text">...</div>
+        </div>
+    </div>
+    <div class="input-field">
+        <h4>Write a message...</h4>
+        <img src="./send.png" alt="">
+        <img src="./microphone.png" alt="">
+    </div>
+   </div>
+</body>
+</html>
